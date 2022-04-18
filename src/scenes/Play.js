@@ -106,7 +106,7 @@ class Play extends Phaser.Scene{
 
         // display score
         let scoreConfig = {
-            fontFamily: 'Courier',
+            fontFamily: 'Trebuchet MS',
             fontSize: '28px',
             backgroundColor: 'lightgreen',
             color: 'black',
@@ -215,7 +215,7 @@ class Play extends Phaser.Scene{
         ship.alpha = 0;
 
         let scoreConfig = {
-            fontFamily: 'Courier',
+            fontFamily: 'Trebuchet MS',
             fontSize: '28px',
             backgroundColor: '#1B81B8',
             color: '#843605',
