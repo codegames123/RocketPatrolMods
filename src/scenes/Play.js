@@ -137,7 +137,7 @@ class Play extends Phaser.Scene{
         
         //console.log(`${game.settings.gameTimer}`);
         
-        this.clock = this.time.delayedCall(/*game.settings.gameTimer*/ 1000, () => {
+        this.clock = this.time.delayedCall(game.settings.gameTimer, () => {
             scoreConfig.fontSize = 40;
             this.add.text(game.config.width / 2, game.config.height / 2, 'Time\'s Up!', scoreConfig).setOrigin(0.5);
             scoreConfig.fontSize = 28;
