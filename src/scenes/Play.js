@@ -1,3 +1,8 @@
+//Nathan L.
+//Rocket Patrol Mods Project
+//4/17/2022
+//5 hours to complete
+
 //global timer variables
 var timerMsg;
 var timedEvent;
