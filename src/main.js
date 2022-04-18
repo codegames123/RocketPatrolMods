@@ -27,3 +27,11 @@ let borderPadding = borderUISize / 3;
 // Create a new title screen (e.g., new artwork, typography, layout) (10)
 // Create a new spaceship type (w/ new artwork) that's smaller, moves faster, and is worth more points (20)
 // Create new artwork for all of the in-game assets (rocket, spaceships, explosion) (20) 
+
+/*
+MUSIC:
+Epic Cinematic Gaming Cyberpunk | RESET by Alex-Productions | https://www.youtube.com/channel/UCx0_M61F81Nfb-BRXE-SeVA
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+*/
