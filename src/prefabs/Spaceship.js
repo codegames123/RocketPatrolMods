@@ -1,13 +1,17 @@
 // Rocket prefab
 class Spaceship extends Phaser.GameObjects.Sprite {
-    constructor(scene, x, y, texture, frame, pointValue) {
+    constructor(scene, x, y, texture, frame, pointValue, speed) {
       super(scene, x, y, texture, frame);
   
       // add object to existing scene
       scene.add.existing(this);
       this.points = pointValue;
-      this.moveSpeed = game.settings.spaceshipSpeed;
+      if(speed == 0) // change speed on one of the rockets
+        this.moveSpeed = game.settings.spaceshipSpeed;
+      else
+        this.moveSpeed = speed;
     }
+
 //rev space class
     update() {
         this.x -= this.moveSpeed;
@@ -19,4 +23,5 @@ class Spaceship extends Phaser.GameObjects.Sprite {
     reset(){
         this.x = game.config.width;
     }
+
 }
